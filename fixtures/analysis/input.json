@@ -1,0 +1,2795 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "communities": [
+    {
+      "community_id": "community-0",
+      "assigned_arm": "usual",
+      "randomization_block": "block-0",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-0",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-1",
+      "assigned_arm": "extra",
+      "randomization_block": "block-0",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-0",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-2",
+      "assigned_arm": "usual",
+      "randomization_block": "block-1",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-0",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-3",
+      "assigned_arm": "extra",
+      "randomization_block": "block-1",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-0",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-4",
+      "assigned_arm": "usual",
+      "randomization_block": "block-2",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-1",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-5",
+      "assigned_arm": "extra",
+      "randomization_block": "block-2",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-1",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-6",
+      "assigned_arm": "usual",
+      "randomization_block": "block-3",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-1",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-7",
+      "assigned_arm": "extra",
+      "randomization_block": "block-3",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-1",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-8",
+      "assigned_arm": "usual",
+      "randomization_block": "block-4",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-2",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-9",
+      "assigned_arm": "extra",
+      "randomization_block": "block-4",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-2",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-10",
+      "assigned_arm": "usual",
+      "randomization_block": "block-5",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-2",
+      "inclusion_probability": 0.5
+    },
+    {
+      "community_id": "community-11",
+      "assigned_arm": "extra",
+      "randomization_block": "block-5",
+      "assigned_at": "2026-08-01T00:00:00+00:00",
+      "shared_center": "center-2",
+      "inclusion_probability": 0.5
+    }
+  ],
+  "invitees": [
+    {
+      "person_id": "person-0",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-1",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-2",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-3",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-4",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-5",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-6",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-7",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-8",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-9",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-10",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-11",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-12",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-13",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-14",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-15",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-16",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-17",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-18",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-19",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-20",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-21",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-22",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-23",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-24",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-25",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-26",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-27",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-28",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-29",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-30",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-31",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-32",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-33",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-34",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-35",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-36",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-37",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-38",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-39",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-40",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-41",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-42",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-43",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-44",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-45",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-46",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-47",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-48",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-49",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-50",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-51",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-52",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-53",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-54",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-55",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-56",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-57",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-58",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-59",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-60",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-61",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-62",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-63",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-64",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-65",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-66",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-67",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-68",
+      "community_id": "community-8",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-69",
+      "community_id": "community-9",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-70",
+      "community_id": "community-10",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-71",
+      "community_id": "community-11",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-72",
+      "community_id": "community-0",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-73",
+      "community_id": "community-1",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-74",
+      "community_id": "community-2",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-75",
+      "community_id": "community-3",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-76",
+      "community_id": "community-4",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-77",
+      "community_id": "community-5",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-78",
+      "community_id": "community-6",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-79",
+      "community_id": "community-7",
+      "invited_at": "2026-08-06T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-08-06T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-80",
+      "community_id": "community-8",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-81",
+      "community_id": "community-9",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-82",
+      "community_id": "community-10",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-83",
+      "community_id": "community-11",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-84",
+      "community_id": "community-0",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-85",
+      "community_id": "community-1",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-86",
+      "community_id": "community-2",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-87",
+      "community_id": "community-3",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-88",
+      "community_id": "community-4",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-89",
+      "community_id": "community-5",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-90",
+      "community_id": "community-6",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-91",
+      "community_id": "community-7",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-92",
+      "community_id": "community-8",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-93",
+      "community_id": "community-9",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-94",
+      "community_id": "community-10",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-95",
+      "community_id": "community-11",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-96",
+      "community_id": "community-0",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-97",
+      "community_id": "community-1",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-98",
+      "community_id": "community-2",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-99",
+      "community_id": "community-3",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-100",
+      "community_id": "community-4",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-101",
+      "community_id": "community-5",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-102",
+      "community_id": "community-6",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-103",
+      "community_id": "community-7",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-104",
+      "community_id": "community-8",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-105",
+      "community_id": "community-9",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-106",
+      "community_id": "community-10",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-107",
+      "community_id": "community-11",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-108",
+      "community_id": "community-0",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-109",
+      "community_id": "community-1",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-110",
+      "community_id": "community-2",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-111",
+      "community_id": "community-3",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-112",
+      "community_id": "community-4",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-113",
+      "community_id": "community-5",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-114",
+      "community_id": "community-6",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-115",
+      "community_id": "community-7",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-116",
+      "community_id": "community-8",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-117",
+      "community_id": "community-9",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": false,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-118",
+      "community_id": "community-10",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-119",
+      "community_id": "community-11",
+      "invited_at": "2026-10-15T00:00:00+00:00",
+      "reminder_received": true,
+      "available_at": "2026-10-15T00:00:00+00:00"
+    }
+  ],
+  "stages": [
+    {
+      "person_id": "person-1",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-1",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-2",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-2",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-3",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-3",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-5",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-5",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-5",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-6",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-6",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-7",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-7",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-9",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-9",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-10",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-10",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-10",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-11",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-11",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-13",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-13",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-14",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-14",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-15",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-15",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-15",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-17",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-17",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-18",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-18",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-19",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-19",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-21",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-21",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-22",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-22",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-23",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-23",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-25",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-25",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-25",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-26",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-26",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-27",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-27",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-29",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-29",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-30",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-30",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-30",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-31",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-31",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-33",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-33",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-34",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-34",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-35",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-35",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-35",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-37",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-37",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-38",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-38",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-39",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-39",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-41",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-41",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-42",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-42",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-43",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-43",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-45",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-45",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-45",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-46",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-46",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-47",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-47",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-49",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-49",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-50",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-50",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-50",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-51",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-51",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-53",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-53",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-54",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-54",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-55",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-55",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-55",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-57",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-57",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-58",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-58",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-59",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-59",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-61",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-61",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-62",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-62",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-63",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-63",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-65",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-65",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-65",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-66",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-66",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-67",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-67",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-69",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-69",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-70",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-70",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-70",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-71",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-71",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-73",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-73",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-74",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-74",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-75",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-75",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-75",
+      "stage": "referral",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-77",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-77",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-78",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-78",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-79",
+      "stage": "attended",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-79",
+      "stage": "sample",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-81",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-81",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-82",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-82",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-83",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-83",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-85",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-85",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-85",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-86",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-86",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-87",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-87",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-89",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-89",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-90",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-90",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-90",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-91",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-91",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-93",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-93",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-94",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-94",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-95",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-95",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-95",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-97",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-97",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-98",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-98",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-99",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-99",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-101",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-101",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-102",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-102",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-103",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-103",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-105",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-105",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-105",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-106",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-106",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-107",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-107",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-109",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-109",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-110",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-110",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-110",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-111",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-111",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-113",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-113",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-114",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-114",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-115",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-115",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-115",
+      "stage": "referral",
+      "occurred_at": "2026-11-04T00:00:00+00:00",
+      "available_at": "2026-11-05T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-117",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-117",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-118",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-118",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-119",
+      "stage": "attended",
+      "occurred_at": "2026-10-18T00:00:00+00:00",
+      "available_at": "2026-10-19T00:00:00+00:00",
+      "outcome": "complete"
+    },
+    {
+      "person_id": "person-119",
+      "stage": "sample",
+      "occurred_at": "2026-10-23T00:00:00+00:00",
+      "available_at": "2026-10-24T00:00:00+00:00",
+      "outcome": "complete"
+    }
+  ],
+  "referral_eligibility": [
+    {
+      "person_id": "person-1",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-2",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-3",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-5",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-6",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-7",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-9",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-10",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-11",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-13",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-14",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-15",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-17",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-18",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-19",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-21",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-22",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-23",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-25",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-26",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-27",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-29",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-30",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-31",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-33",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-34",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-35",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-37",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-38",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-39",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-41",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-42",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-43",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-45",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-46",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-47",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-49",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-50",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-51",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-53",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-54",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-55",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-57",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-58",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-59",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-61",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-62",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-63",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-65",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-66",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-67",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-69",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-70",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-71",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-73",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-74",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-75",
+      "eligible": true,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-77",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-78",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-79",
+      "eligible": false,
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-81",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-82",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-83",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-85",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-86",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-87",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-89",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-90",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-91",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-93",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-94",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-95",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-97",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-98",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-99",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-101",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-102",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-103",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-105",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-106",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-107",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-109",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-110",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-111",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-113",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-114",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-115",
+      "eligible": true,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-117",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-118",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "person_id": "person-119",
+      "eligible": false,
+      "available_at": "2026-10-30T00:00:00+00:00"
+    }
+  ],
+  "study": {
+    "horizon_days": 30,
+    "randomization_unit": "community",
+    "primary_endpoint": "attendance",
+    "operational_outcome": "referral_completion_per_invitee"
+  },
+  "baseline_case_id": "demo-001"
+}
