@@ -3,6 +3,7 @@ workspace=$(mktemp -d)
 trap 'rm -rf "$workspace"' EXIT
 export PYTHONDONTWRITEBYTECODE=1
 bash scripts/demo.sh
+python3 -m unittest discover -s tests -p test_outreach_trial.py -q
 python3 -m colorectal_cascade.commands.cascade fixtures/demo.json --db "$workspace/analysis.sqlite3" > "$workspace/baseline.json"
 python3 -m colorectal_cascade.outreach_trial --input fixtures/analysis/input.json --database "$workspace/analysis.sqlite3" --output "$workspace/first.json"
 python3 -m colorectal_cascade.outreach_trial --input fixtures/analysis/input.json --database "$workspace/analysis.sqlite3" --output "$workspace/replay.json"
